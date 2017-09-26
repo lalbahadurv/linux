@@ -1,0 +1,440 @@
+echo "nodeadm ALL=(root) NOPASSWD:ALL" >>/etc/sudoers
+
+# yum --enablerepo=* --disablerepo=c6-media
+
+
+History ip 10.129.72.86 
+ls -altr
+  315  cd conf
+  316  ls
+  317  cd ..
+  318  find / -name worker*.*
+  319  less /opt/apps/apache24/conf/worker.properties
+  320  ssh 10.129.72.48
+  321  cat /etc/passwd
+  322  cd /opt/sizeguide/
+  323  ll
+  324  cd bak/
+  325  ll
+  326  ps -aef | grep apache
+  327  cd /opt/apps/apache24/
+  328  ll
+  329  cd ..
+  330  pwd
+  331  cd sizeguide/
+  332  ll
+  333  exit
+  334  cd /opt/
+  335  cd sizeguide/
+  336  ll
+  337  scp -r *.jpg root@10.129.72.46:/opt/sizeguide
+  338  ll
+  339  scp -r *.jpg root@10.129.72.47:/opt/sizeguide
+  340  exit
+  341  cd /opt/sizeguide/
+  342  ll
+  343  pwd
+  344  ll
+  345  cd /opt/apps/apache24/
+  346  ll
+  347  cd conf/
+  348  ll
+  349  vim httpd.conf
+  350  exit
+  351  df -h
+  352  ls -l /var/www
+  353  top
+  354  cd /opt/apps/apache24/
+  355  ll
+  356  cd conf/
+  357  ll
+  358  vim worker.properties
+  359  vim httpd.conf
+  360  exit
+  361  df -kh
+  362  init 0
+  363  ifconfig
+  364  ifconfig -a
+  365  cd /etc/sysconfig/network-scripts/
+  366  ls -ltr
+  367  cp ifcfg-eth0 ifcfg-eth1
+  368  vi ifcfg-1
+  369  setup
+  370  clear
+  371  cdlogout
+  372  logout
+  373  vi /etc/selinux/config
+  374  vi /etc/sysconfig/network-scripts/ifcfg-eth0
+  375  vi /etc/udev/rules.d/70-persistent-net.rules
+  376  service network restart
+  377  ifconfig
+  378  vi /etc/ntp.conf
+  379  clear
+  380  service ntpd restart
+  381  ntpq -p
+  382  init 6
+  383  clear
+  384  ifconfig
+  385  hostname
+  386  setup
+  387  init 6
+  388  setup
+  389  vi /etc/udev/rules.d/70-persistent-net.rules
+  390  vi /etc/sysconfig/network-scripts/ifcfg-eth0
+  391  vi /etc/selinux/config
+  392  vi /etc/ntp.conf
+  393  ntpq -p
+  394  init 6
+  395  ifconfig -a
+  396  setup
+  397  cd /etc/sysconfig/network-scripts/
+  398  ls
+  399  rm ifcfg-eth1
+  400  ls
+  401  setup
+  402  service network restart
+  403  setup
+  404  vim /etc/udev/rules.d/70-persistent-net.rules
+  405  service network restart
+  406  setup
+  407  service NetworkManager restart
+  408  setup
+  409  cd /etc/sysconfig/network-scripts/
+  410  ls
+  411  cat ifcfg-eth0
+  412  init 6
+  413  setup
+  414  cd /etc/udev/rules.d/
+  415  ls
+  416  cp 70-persistent-net.rules /tmp/
+  417  cd /tmp/
+  418  ls
+  419  cd /etc/udev/rules.d/
+  420  rm 70-persistent-net.rules
+  421  init 6
+  422  setup
+  423  cd /etc/sysconfig/network-scripts/
+  424  ls
+  425  ifconfig
+  426  /sbin/ifconfig -a
+  427  route -n
+  428  setup
+  429  cat /etc/udev/rules.d/70-persistent-net.rules
+  430  cd /tmp/
+  431  ls
+  432  rm 70-persistent-net.rules
+  433  setup
+  434  ifconfig
+  435  ifconfig eth1 down
+  436  cat /proc/net/bonding/dond0
+  437  cat /proc/net/
+  438  cd /proc/
+  439  ls
+  440  ls | more
+  441  clear
+  442  cd
+  443  clear
+  444  ifconfig
+  445  hostname
+  446  setup
+  447  vi /etc/udev/rules.d/70-persistent-net.rules
+  448  setup
+  449  cd /etc/sysconfig/network-scripts/
+  450  ls
+  451  ifconfig
+  452  vi /etc/udev/rules.d/70-persistent-net.rules
+  453  ifconfig
+  454  claer
+  455  clear
+  456  w
+  457  hostname
+  458  ifconfig
+  459  ls
+  460  yum -qa | grep sym
+  461  rpm -qa | grep sym
+  462  rpm -qa | grep SYM
+  463  init 6
+  464  ifconfig
+  465  rpm -qa | grep SYM
+  466  rpm -e SYMCcsp-5.2.9-905.x86_64
+  467  setup
+  468  ifcongih
+  469  ifcongig
+  470  ifconfig
+  471  ifconfig -a | grep eth1 | grep HWaddr | awk '{ print $5}'
+  472  setup
+  473  ifconfig
+  474  cd /tmp
+  475  ls
+  476  cd HPOM_LINUX_AGENT11.14/
+  477  ls
+  478  cd ..
+  479  ls
+  480  ifconfig
+  481  exit
+  482  hostname
+  483  ifconfig
+  484  setup
+  485  init 6
+  486  hostname
+  487  exit
+  488  ifconfig
+  489  exit
+  490  ifconfig
+  491  rpm -qa | grep SYM
+  492  cd /tmp
+  493  ls
+  494  chmod agent64-linux-rhel6.bin agent-cert.ssl
+  495  chmod 755 agent64-linux-rhel6.bin agent-cert.ssl
+  496  ls
+  497  ./agent64-linux-rhel6.bin
+  498  hostname
+  499  exit
+  500  cmd /C ver
+  501  ip r
+  502  exit
+  503   useradd nodeadm
+  504  passwd nodeadm
+  505  echo "nodeadm ALL=(root) NOPASSWD:ALL" >>/etc/sudoers
+  506  hostname
+  507  vi /etc/host
+  508  vi /etc/hosts
+  509  exit
+  510  ip r
+  511  hostname
+  512  ping 10.1129.72.1
+  513  ifconfig
+  514  cd /opt/
+  515  ll
+  516  cd apps/
+  517  ll
+  518  cd apache24/
+  519  ll
+  520  /etc/init.d/httpd status
+  521  cd
+  522  uptime
+  523  vim /etc/sysconfig/network
+  524  hostname
+  525  vim /etc/sysconfig/network
+  526  hostname FNLPRDWEBNODEJS02.ril.com
+  527  hostname
+  528  cat /etc/grub.conf
+  529  hostname
+  530  cat /etc/grub.conf
+  
+------------------------------10.129.72.46----------------------------------------------
+ ps -ef|grep apache
+  808  ps -ef|grep apache
+  809  exit
+  810  ps -ef | grep 'apache'
+  811  ps -ef | grep apache
+  812  ps -ef | grep java
+  813  clear
+  814  vi httpd.conf
+  815  vi httpd.conf
+  816  cd ../bin/
+  817  whoami
+  818  ./apachectl restart
+  819  cd -
+  820  ls -altr
+  821  cd -
+  822  cd ../logs/
+  823  ls -altr
+  824  top
+  825  ps -ef | grep apache
+  826  cd /opt/apps/lo
+  827  /opt/apps/apache24/logs/
+  828  /opt/apps/apache24/
+  829  cd /opt/apps/apache24/logs/
+  830  apace status
+  831  apache status
+  832  tail -f access_log.2017.06.17.log
+  833  ps -ef | grep apache
+  834  ls -lh
+  835  history
+  836  ip r
+  837  free -g
+  838  less /var/log/messages
+  839  ip r
+  840  free -g
+  841  ip r
+  842  free -m
+  843  ip r
+  844  ps aux | sort -nk +4 | tail
+  845  top
+  846  free -g
+  847  top
+  848  ps -ef |grep 15538
+  849  pstree 15538
+  850  ps axo %mem,pid,euser,cmd | sort -nr | head -n 10
+  851  ip r
+  852  ps -eo size,pid,user,command --sort -size | awk '{ hr=$1/1024 ; printf("%13.2f Mb ",hr) } { for ( x=4 ; x<=NF ; x++ ) { printf("%s ",$x) } print "" }'
+  853  top
+  854  pstree 13606
+  855  ps -ef|grep httpd
+  856  pstree 7695
+  857  pstree httpd
+  858  mail
+  859  top
+  860  sar 5 5
+  861  ps -eo size,pid,user,command --sort -size | awk '{ hr=$1/1024 ; printf("%13.2f Mb ",hr) } { for ( x=4 ; x<=NF ; x++ ) { printf("%s ",$x) } print "" }'
+  862  sar -r
+  863  ps -eo size,pid,user,command --sort -size | awk '{ hr=$1/1024 ; printf("%13.2f Mb ",hr) } { for ( x=4 ; x<=NF ; x++ ) { printf("%s ",$x) } print "" }'
+  864  top
+  865  free -g
+  866  cat /proc/meminfo
+  867  ps -ef | grep apache
+  868  ls -ltr
+  869  chmod 777 *
+  870  ls -ltr
+  871  cd ..
+  872  cd ..
+  873  cd brand-logo/
+  874  ls -ltr
+  875  chmod 777 *
+  876  ls -ltr
+  877  passwd root
+  878  cd /opt/apps/apache24/logs/
+  879  ls -ltr
+  880  exit
+  881  /opt/OV/bin/ovc
+  882  /opt/OV/bin/opcagt
+  883  /opt/OV/bin/opcagt -cleanstart
+  884  exit
+  885  /opt/OV/bin/ovpolicy -disable -polname Ajio_LogMon
+  886  opt/OV/bin/ovpolicy -list
+  887  /opt/OV/bin/ovpolicy -list
+  888  exit
+  889  cd /var/www/html/
+  890  ll
+  891  cp /tmp/apple-app-site-association .
+  892  cd /opt/apps/apache24/bin/
+  893  ./apachectl stop
+  894  ./apachectl start
+  895  ./apachectl stop
+  896  ./apachectl start
+  897  cd ../logs/
+  898  ls -ltr
+  899  less error_log.2017.07.17.log
+  900  exit
+  901  ifconfig
+  902  cd /opt/apps/apache24/conf/
+  903  cp worker.properties worker.properties.bak.17-july-2017
+  904  vi worker.properties
+  905  ./apachectl stop
+  906  ps -ef | grep apache
+  907  ./apachectl start
+  908  /opt/OV/bin/ovpolicy -list
+  909  /opt/OV/bin/ovpolicy -enable -polname "Ajio_LogMon"
+  910  /opt/OV/bin/ovpolicy -list
+  911  exit
+  912  cd /opt/apps/apache24/bin/
+  913  ./apachectl start
+  914  /opt/OV/bin/ovpolicy -disable -polname "Ajio_LogMon"
+  915  /opt/OV/bin/ovpolicy -list
+  916  exit
+  917  less access_log.2017.07.18-20_5
+  918  ls -ltr
+  919  exit
+  920  ls -ltr
+  921  less messages
+  922  cd -
+  923  cd /opt/apps/apache24/logs/
+  924  ls -ltr
+  925  less error_log.2017.07.18.log
+  926  exit
+  927  ulimit
+  928  ls -ltr
+  929  cd /etc/sysconfig/
+  930  ls -ltr
+  931  cd ../
+  932  ls -ltr
+  933  less sysctl.conf
+  934  less /usr/include/linux/
+  935  cd /usr/include/linux/
+  936  ls -ltr
+  937  cd /opt/apps/apache24/logs/
+  938  ls -ltr
+  939  exiyt
+  940  exit
+  941  cd /etc/security/
+  942  ls -ltr
+  943  less limits.conf
+  944  less limits.d/
+  945  less limits.conf
+  946  exit
+  947  ps -ef | grep apache
+  948  ulimit -a
+  949  ulimit -m
+  950  ulimit -u
+  951  ulimit -n
+  952  lsof |grep httpd |wc -l
+  953  ulimit -a
+  954  lsof |grep httpd |wc -l
+  955  ps -ef | grep httpd
+  956  cat /proc/8632/limits
+  957  ls -l /proc/8632/fd |wc -l
+  958  ls -l /proc/8636/fd |wc -l
+  959  ls -l /proc/8632/fd |wc -l
+  960  cat /proc/8673/limits
+  961  ls -l /proc/8673/fd |wc -l
+  962  less /var/spool/mail/root
+  963  less /opt/apps/apache24/conf/extra/httpd-mpm.conf
+  964  ls -l /proc/8632/fd |wc -l
+  965  less /opt/apps/apache24/conf/extra/httpd-mpm.conf
+  966  ulimit -a
+  967  whoami
+  968  vi ~/.bashrc
+  969  /opt/apps/apache24/bin/./apachectl stop
+  970  /opt/apps/apache24/bin/./apachectl start
+  971  ps -ef | grep httpd
+  972  /opt/apps/apache24/bin/./apachectl star
+  973  /opt/apps/apache24/bin/./apachectl start
+  974  ps -ef | grep httpd
+  975  ulimit -a
+  976  whoami
+  977  vi ~/.bashrc
+  978  ulimit -a
+  979  tail -f /opt/apps/apache24/logs/error_log.2017.07.19.log
+  980  last |less
+  981  cd /opt/apps/apache24/conf/
+  982  cp httpd.conf httpd.conf.bak.20-jul-2017
+  983  vi httpd.conf
+  984  cd /opt/apps/apache24/bin/
+  985  httpd -t
+  986  ./apachectl stop
+  987  ./apachectl start
+  988  ulimit -a
+  989  less ~/.bashrc
+  990  vi /opt/apps/apache24/conf/worker.properties
+  991  passwd hybadmin
+  992  exit
+  993  cd /opt/apps/apache24/conf/
+  994  vi worker.properties
+  995  cd ../bin/
+  996  ./apachectl stop
+  997  ./apachectl start
+  998  w
+  999  passwd root
+ 1000  ip r
+ 1001  cd /opt/sizeguide/
+ 1002  ll
+ 1003  id hybadmin
+ 1004  getent passwd hybadmin
+ 1005  cd /home/hybadmin/
+ 1006  ll
+ 1007  ps -ef |grep apache
+ 1008  cd /opt/apps/
+ 1009  ll
+ 1010  cd apache24/
+ 1011  ll
+ 1012  cd conf/
+ 1013  ll
+ 1014  vim httpd.conf
+ 1015  ip r
+ 1016  cd ..
+ 1017  cd logs/
+ 1018  ll\
+
+
+Ajio.com   10.129.72.250   load balancer

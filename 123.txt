@@ -1,0 +1,251 @@
+[root@FNLPRDSRCH04 ~]# df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg_fnlprdsrch01-LogVol03
+                       33G   25G  6.5G  80% /
+tmpfs                  16G     0   16G   0% /dev/shm
+/dev/sda1             504M   44M  436M   9% /boot
+/dev/mapper/vg_fnlprdsrch01-LogVol00
+                       20G  173M   19G   1% /opt/hybris
+/dev/mapper/vg_fnlprdsrch01-LogVol01
+                       20G  172M   19G   1% /opt/hybris/log
+sidc1isln03.in.ril.com:/ifs/RETAILSAP/FNL_HYBRIS_PROD
+                      1.4T 1016G  316G  77% /NAS_fnlmedia
+
+
+
+[root@FNLPRDSRCH04 ~]# df -h
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mapper/vg_fnlprdsrch01-LogVol03
+                       99G   25G   69G  27% /
+tmpfs                  16G     0   16G   0% /dev/shm
+/dev/sda1             504M   44M  436M   9% /boot
+/dev/mapper/vg_fnlprdsrch01-LogVol00
+                       20G  173M   19G   1% /opt/hybris
+/dev/mapper/vg_fnlprdsrch01-LogVol01
+                       20G  172M   19G   1% /opt/hybris/log
+sidc1isln03.in.ril.com:/ifs/RETAILSAP/FNL_HYBRIS_PROD
+                      1.4T 1016G  316G  77% /NAS_fnlmedia
+
+
+_______________________________________________________________________________________________
+Smtp relay  server ip 10.128.3.23
+
+ 576  cat /etc/hosts
+  577  df -kH
+  578  df -kh
+  579  ls -l /var/log/maillog
+  580  ls -ltrh  /var/log/maillog
+  581  vim /var/log/maillog
+  582  cd  /var/spool/mail/root
+  583  vim   /var/spool/mail/root
+  584  ls -l /var/spool/mail/root
+  585  ls -ltrh  /var/spool/mail/root
+  586  df -kh
+  587  ls
+  588  ls
+  589  grep Apr 19 /var/log/maillog > todaylog.txt
+  590  grep 'Apr 19' /var/log/maillog > todaylog.txt
+  591  vim todaylog.txt
+  592  vim /etc/mail/access
+  593  vim /var/log/maillog
+  594  vim /etc/mail/acess
+  595  vim /etc/mail/access
+  596  ./sendmailrestart
+  597  ls -l
+  598  vim /var/log/maillog
+  599  vi /etc/mail/access
+  600  ll
+  601  ./sendmailrestart
+  602  tailf /var/log/maillog
+  603  cat /var/log/maillog | grep -i 10.131.40.152
+  604  cat /var/log/maillog | grep -i 10.131.40.150
+  605  pid ssh
+  606  ps -ef | grep ssh
+  607  uptime
+  608  free -m
+  609  top
+  610  cat /proc/meminfo
+  611  cat /proc/cpuinfo
+  612  vi /etc/mail/access
+  613  ./sendmailrestart
+  614  history
+  615  cd /etc/mail/
+  616  ls
+  617  vim access
+  618  cd
+  619  ./sendmailrestart
+  620  cd /etc/sysconfig/network-scripts/
+  621  ls
+  622  ip r
+  623  cat /etc/redhat-release
+  624  vi /etc/mail/access
+  625  service sendmailrestart
+  626  ./sendmailrestart
+  627  vi /etc/mail/access
+  628  hostname
+  629  df -kH
+  630  top -c
+  631  df -kH
+  632  vim /etc/mail/access
+  633  ls
+  634  sendmailrestart
+  635  ./sendmailrestart
+  636  grep 10.129.16.231  /etc/mail/access
+  637  ls
+  638  vi /etc/mail/access
+  639  vi /etc/mail/access.db
+  640  ls
+  641  ./sendmailrestart
+  642  vi /etc/mail/access
+  643  ./sendmailrestart
+  644  cat /etc/mail/access
+  645  passwd root
+  646  grep 10.128.78.140 /etc/mail/acess
+  647  history
+  648  vi /etc/mail/access
+  649  grep 10.128.78.140 /etc/mail/acess
+  650  grep -i 10.128.78.140 /etc/mail/acess
+  651  grep -i '10.128.78.140' /etc/mail/acess
+  652  grep -i '10.128.78.140' /etc/mail/access
+  653  vim /var/log/maillog
+  654  history
+  655  vim /etc/mail/access
+  656  cat /etc/mail/access | grep Nn5S,RBFWituUB
+  657  cat /etc/mail/access | grep 10.128.3.23
+  658  cat /etc/mail/access | grep 10.128.78.140
+  659  vim /etc/mail/access
+  660  ls
+  661  /etc/init.d/sendmail status
+  662  /etc/init.d/sendmail reload
+  663  df -kH
+  664  du -sch
+  665  free -m
+  666  cat /etc/mail/access | grep -i P615XMST01
+  667  cat /etc/mail/access | grep -i 10.128.38.49
+  668  cat /etc/mail/access | grep 10.128.38.57
+  669  cat /etc/mail/access | grep  10.128.38.49
+  670  cat /etc/mail/access | grep  -i P618XMED03
+  671  cat /etc/hosts | grep smtp.idc.ril.com
+  672  service smptd status
+  673  service smtpd status
+  674  service smtp status
+  675  tailf /var/log/maillog | grep 10.128.38.57
+  676  cat  /var/log/maillog | grep 10.128.38.57
+  677  service sendmail status
+  678  cat  /var/log/maillog | grep 10.128.38.57
+  679  ls
+  680  history
+  681  grep "May  5"   /var/log/maillog > test
+  682  vim test
+  683  grep "May  26" test
+  684  grep "May  26"   /var/log/maillog
+  685  cat "May  26"   /var/log/maillog
+  686  cat "May  26"   /var/log/maillog | grep 10.128.38.57
+  687  grep "May 26"   /var/log/maillog > test
+  688  vim test
+  689  grep "May 25"   /var/log/maillog > test
+  690  vim test
+  691  grep "May 27"   /var/log/maillog > test
+  692  vim test
+  693  grep "May 25"   /var/log/maillog > test
+  694  vim test
+  695  grep "May 28"   /var/log/maillog > test
+  696  vim test
+  697  ip r
+  698  history
+  699  cat /etc/mail/access | grep 10.128.27.100
+  700  vi /etc/mail/access
+  701  /etc/init.d/sendmail reload
+  702  cat /etc/mail/access | grep 10.128.27.100
+  703   cat /etc/mail/access
+  704  vi /etc/mail/access
+  705  /etc/init.d/sendmail reload
+  706  cat /etc/mail/access | grep 10.128.27.100
+  707  exit
+  708  vi /etc/mail/access
+  709  service sendmail restart
+  710  vim /etc/mail/access
+  711  cat /etc/mail/access | grep 10.31.113.250
+  712  ip r
+  713  vi /etc/mail/access
+  714  ll
+  715  ./sendmailrestart
+  716  cat /etc/mail/access | grep 10.131.93.11
+  717  cat /etc/mail/access | grep 10.131.93.13
+  718  cat /etc/mail/access | grep 10.131.93.15
+  719  cat /etc/mail/access | grep 10.131.93.16
+  720  vim /etc/mail/access
+  721  ./sendmailrestart
+  722  cat /etc/mail/access | grep 10.131.93.11
+  723  cat /etc/mail/access | grep 10.131.93.13
+  724  cat /etc/mail/access | grep 10.131.93.15
+  725  cat /etc/mail/access | grep 10.131.93.16
+  726  cd  /etc/mail/
+  727  ls
+  728  cat /etc/mail/access | grep 10.128.27.252
+  729  cat /etc/mail/access | grep 10.128.27.28
+  730  cat /etc/mail/access | grep 10.128.27.88
+  731  vim /etc/mail/access
+  732  ./sendmailrestart
+  733  cat /etc/mail/access | grep 10.128.27.88
+  734  cat /etc/mail/access | grep 10.131.53.35
+  735  cat /etc/mail/access | grep 10.131.53.36
+  736  cat /etc/mail/access | grep 10.131.53.37
+  737  cat /etc/mail/access | grep 10.131.53.38
+  738  vim /etc/mail/access
+  739  cd /etc/mail/access
+  740  cd /etc/mail/
+  741  cp access access-15June2017-10.30
+  742  vim access
+  743  ./sendmailrestart
+  744  cat /etc/mail/access 10.131.93.11
+  745  cat /etc/mail/access |grep 10.131.93.11
+  746  cat /etc/mail/access |grep 10.131.93.13
+  747  grep 10.131.93.11  /etc/mail/access
+  748  grep 10.131.93.13  /etc/mail/access
+  749  grep 10.131.93.13  /var/log/maillog
+  750  grep 10.131.93.16  /var/log/maillog
+  751  grep 10.131.93.16  /etc/mail/access
+  752  grep 10.131.93.13  /etc/mail/access
+  753  vim /etc/mail/access
+  754  ip r
+  755  history
+  756  vi /etc/mail/access
+  757  vi /etc/rsyslog.conf
+  758  /etc/init.d/rsyslog restart
+  759  vi /etc/rsyslog.conf
+  760  history
+  761  cat /etc/mail/access
+  762  df -kH
+  763  ls
+  764  pwd
+  765  ls .a
+  766  ls -al .*
+  767  vim .bash_profile
+  768  top
+  769  passwd root
+  770  vi /etc/mail/access
+  771  cd /etc/mail/
+  772  ./sendmailrestart
+  773  cat /etc/passwd
+  774  vi /etc/passwd
+  775  cat /etc/mail/access | grep 10.31.112.30
+  776  cat /etc/mail/access | grep 10.31.112.31
+  777  cat /etc/mail/access | grep 10.31.112.30
+  778  cat /etc/mail/access | grep 10.21.1.52
+  779  cp -p /etc/mail/access /etc/mail/access-30June2017
+  780  vim /etc/mail/access
+  781  ./sendmailrestart
+  782  cat /etc/mail/access | grep 10.31.112.30
+  783  cat /etc/mail/access | grep 10.21.1.52
+  784  cat /etc/mail/access | grep 10.31.112.31
+  785  grep 10.129.72.250 /etc/mail/access
+  786  more access.db
+  787  ls -l
+  788  	
+  789  grep 10.129.72.250 /etc/mail/access
+  790  more /etc/mail/access
+  791  vi /etc/mail/access
+
+
+73045   

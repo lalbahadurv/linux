@@ -1,0 +1,61 @@
+IDC SYSTEM OPERATION
+Ril.Sysops@zmail.ril.com
+sidc1rmail050.zmail.ril.com
+rmta010.zmail.ril.com
+Ril.Sysops 
+zmail@32
+
+RIL.Sysops@zmail.ril.com
+Reliance Industries Limited
+idc.operations@ril.com
+
+Get IT portal ----:
+https://getit6.ril.com/rilitsm/index.do?lang=en&mode=index.do&logout_msg=LogoutPage.session_timeout  
+
+
+
+sop PATH-----Z:\IDCSYSADMIN\IDC-LINUX-SOP
+
+10.128.3.30	root@123    DNS SERVER 
+
+
+cp -pv /etc/resolv.conf /etc/resolv.conf.BKP
+
+
+cat /etc/resolv.conf
+echo "nameserver 10.66.15.201
+nameserver 10.66.9.204" > /etc/resolv.conf
+
+
+cat /etc/resolv.conf
+
+
+
+chmod 0600  /var/log/wtmp
+ ls -l /var/log/wtmp
+
+
+################################################
+SA installation 
+################################################
+ cat /etc/redhat-release
+sh sethostname.txt
+rm -rf sethostname.txt
+chmod 777 opsware-agent-60.0.56685.0-linux-6SERVER-X86_64
+./opsware-agent-60.0.56685.0-linux-6SERVER-X86_64 -s --opsw_gw_addr_list 10.131.40.141:3001 --force_new_device
+
+/etc/rc.d/init.d/opsware-agent status
+
+
+
+
+
+
+
+http://ftp.riken.jp/Linux/cern/slc60beta/updates/x86_64/RPMS/
+
+Ashok shelke 8275272765
+
+http://ftp5.gwdg.de/pub/opensuse/discontinued/distribution/13.2/repo/oss/suse/x86_64/
+
+  91532

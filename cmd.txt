@@ -1,0 +1,92 @@
+Delete multiple users ------
+#vim userm.txt
+<eneter users name>
+
+# for i in `cat userm.txt`;do useradd -d $i;done
+
+To see user whos uid is more than 500
+# awk  -F ':' '$3>=500 {print $1 ":" $3}' /etc/passwd 
+
+harshad:x:532:532::/var/log/syslog-ng/:/bin/bash
+ watch -n 2 du -sch *
+
+
+
+
+ uptime
+  927  cd /var/log/syslog-ng/
+  928  ls
+  929   du -sch *
+  930  ls
+  931   du -sch *
+  932  watch -n 2 du -sch *
+  933  watch -n 2 du -sh *
+  934  du -sch *
+  935  cd ..
+  936  ll
+  937  cd syslog-ng/
+  938  ls -ld .
+  939  ls -ld /var/log/
+  940  ls -ld /var/log/syslog-ng/
+  941  cd ..
+  942  chmod -R a+s syslog-ng/
+  943  ls -ld /var/log/syslog-ng/
+  944  chmod -R a-s syslog-ng/
+  945  ls -ld /var/log/syslog-ng/
+  946  chmod -R g+s syslog-ng/
+  947  ls -ld /var/log/syslog-ng/
+  948  cd syslog-ng/
+  949  ll
+  950  chmod -R a+x o+r *
+  951  chmod -R a+x *
+  952  ll
+  953  chmod -R a+rx *
+  954  ll
+  955  chmod -R g+w *
+  956  ll
+  957  vi /etc/group
+  958  ls
+  959  cd /root/
+  960  ll
+  961  cd /home/
+  962  ll
+  963  cat /etc/passwd
+  964  cd /tmp/
+  965  ls
+  966  vi test
+  967  vi 1
+  968  #for i in `cat 1` ; do useradd -d /var/log/syslog-ng/ $i ; echo $i@123 | passwd --stdin $i ; done
+  969  for i in test  ; do useradd -d /var/log/syslog-ng/ $i ; echo $i@123 | passwd --stdin $i ; done
+  970  cp -p /etc/skel/.bash* /var/log/syslog-ng/
+  971  vi 1
+  972  for i in test  ; do useradd -d /var/log/syslog-ng/ $i ; echo $i@123 | passwd --stdin $i ; done
+  973  for i in `cat 2` ; do useradd -d /var/log/syslog-ng/ $i ; echo $ipass@123 | passwd --stdin $i ; done
+  974  cd
+  975  cd /var/log/syslog-ng/
+  976  ls
+  977  cd 172.23.11.189
+  978  touch 1
+  979  ll
+  980  cd /var/log/syslog-ng/172.23.11.189
+  981  ll
+  982  cd ..
+  983  ll
+  984  chmod -R o+w *
+  985  ll
+  986  cd 172.23.11.189
+  987  ll
+  988  df -kh
+  989  cd /rotatelog
+  990  ls -ltr
+  991  touch 0
+  992  ifconfig
+  993  umount /rotatelog
+  994  cd ..
+  995  umount /rotatelog
+  996  mount -a sidc1isln03.in.ril.com:/ifs/WAN_NOC/SYSLOG /rotatelog
+  997  df -kh
+  998  cd /rotatelog
+
+
+
+10.131.13.35   VM ----- kernal Hips remove 

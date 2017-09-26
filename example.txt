@@ -1,0 +1,51 @@
+
+
+10.128.30.182 centos     reboot   73167 alankrit  
+
+
+
+
+
+
+
+Mail Ref: - 18 May 2017 13:12  Nitin Chaudhari [mailto:Nitin.Chaudhari@ril.com]   IDC Ticket:-: Approval for port opening| SMP 3.0 QAS
+
+
+10.128.77.21
+10.128.77.22
+
+
+
+BA-10.128.77.21-22-VM
+VA-10.128.77.21-22-VM
+
+
+10.129.72.50
+10.129.72.52
+10.129.72.53
+10.129.72.48
+
+
+
+ANIL.SAINI@RIL.COM / RAHUL.PANDE@RIL.COM
+10.129.39.44
+ 
+
+
+
+10.131.75.57
+
+
+
+
+10.131.47.57    
+10.131.47.64    
+10.131.75.57   
+10.131.75.61 
+
+
+chown -R Ansulkumar.Meena:root /var/log/syslog-ng
+     
+
+
+

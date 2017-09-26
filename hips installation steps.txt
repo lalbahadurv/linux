@@ -1,0 +1,54 @@
+############ HIPS Installation Steps###########
+
+cd /tmp/
+./agent64-linux-rhel6.bin
+Do you agree to the License terms (yes or no)? : Yes
+Enter the Primary Management Server hostname or IP address [127.0.0.1]: SIDCHIPS01.ril.com
+Use "SIDCHIPS01.ril.com" as the Primary Management Server hostname (Yes/No)? [Yes]: yes
+Enter Path to Management Server Certificate [/tmp/agent-cert.ssl]: /tmp/agent-cert.ssl
+Enter Agent Name [sidcpimpspm2]: 10.131.36.22 (Client Server IP)
+ENTER to continue, or 'q' to quit the installation (1-20,q): 4
+Use 'c' to clear current list, <ENTER> to keep current list [keep]: SIDCHIPS02.ril.com
+
+then press enter again to installation
+the restart
+
+############################
+FIRST SAVE IP ADDRESS OF PERTICULAR IN WHICH WE R INSTALLING HIPS
+ip r
+cd /tmp/
+chmod 777 agent64-linux-rhel6.bin
+./agent64-linux-rhel6.bin
+
+yes
+   
+SIDCHIPS01.ril.com
+
+yes
+
+paste IP address of current server
+
+4
+
+SIDCHIPS02.ril.com
+
+yes
+
+
+###########################################################################
+
+cat /etc/grub.conf
+
+sed -i 's/password/#password/g' /boot/grub/grub.conf
+
+cat /etc/grub.conf
+
+reboot
+
+cat /etc/grub.conf
+
+
+sed -i 's/#password/password/g' /boot/grub/grub.conf
+
+
+cat /etc/grub.conf

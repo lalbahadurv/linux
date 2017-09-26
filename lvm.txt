@@ -1,0 +1,35 @@
+lvcreate -L 50G -n  LogVol06 vg_00
+mkfs.ext4 /dev/mapper/vg_00-LogVol06
+mkdir -p /tool
+mount /dev/mapper/vg_00-LogVol06 /tool
+echo "/dev/mapper/vg_00-LogVol06 /tool ext4 defaults 0 0 " >> /etc/fstab
+mount -a 
+
+
+lvcreate -L 20G -n  LogVol05 vg_00
+mkfs.ext4 /dev/mapper/vg_00-LogVol05
+mkdir -p /u01/app/oracle/product/11.2.0/rdbms 
+mount /dev/mapper/vg_00-LogVol05 /u01/app/oracle/product/11.2.0/rdbms 
+echo "/dev/mapper/vg_00-LogVol05 /u01/app/oracle/product/11.2.0/rdbms  ext4 defaults 0 0 " >> /etc/fstab
+
+mount -a 
+
+VGEXTEND example ------------
+vgextend  vg_00 /dev/sdb1
+
+
+
+
+https://examples.javacodegeeks.com/enterprise-java/tomcat/apache-tomcat-interview-questions-answers/
+
+
+SRDCB0011IDCVM-DEV2EMPTEISDB
+
+IMP--------------------------------------------------------
+
+for i in iptables ip6tables NetworkManager ; do chkconfig $i off; service $i stop ; done
+
+ sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+
+sed -i 's/password/#password/g' /boot/grub/grub.conf
+  rpm -qa | grep SYM

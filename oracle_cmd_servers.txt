@@ -1,0 +1,103 @@
+binutils compat-libstdc elfutils-libelf gcc gcc-c glibc glibc-common glibc-devel libaio libaio-devel libgcc libstdc++ libstdc++-devel  make
+
+
+
+
+
+
+ rpm -qa | grep binutils-2.17.50.0.6
+compat-libstdc++-33-3.2.3
+compat-libstdc++-33-3.2.3 (32 bit)
+elfutils-libelf-0.125
+elfutils-libelf-devel-0.125
+gcc-4.1.1
+gcc-c++-4.1.1
+glibc-2.5-12
+glibc-2.5-12 (32 bit)   N
+glibc-common-2.5
+glibc-devel-2.5
+glibc-devel-2.5-12 (32 bit)
+libaio-0.3.106
+libaio-0.3.106 (32 bit)  N
+libaio-devel-0.3.106     N
+libgcc-4.1.1
+libgcc-4.1.1 (32 bit)
+libstdc++-4.1.1
+libstdc++-4.1.1 (32 bit)  N
+libstdc++-devel 4.1.1   N
+make-3.81
+sysstat-7.0.0
+
+
+
+rpm -qa |grep
+  136  rpm -qa |grep  binutils
+  137  rpm -qa |grep compat-libstdc
+  138  rpm -qa |grep elfutils-libelf
+  139  rpm -qa |grep gcc
+  140  rpm -qa |grep gcc-c
+  141  rpm -qa |grep gcc-c+
+  142  yum install gcc-c++-4.1.1
+  143  rpm -qa |grep  glibc
+  144  rpm -qa | grep libaio-0.3.106
+  145  rpm -qa |grep -i  glibc
+  146  rpm -qa |grep -i libaio
+  147   rpm -qa |grep libgcc
+  148  rpm -qa |grep libstdc
+  149  rpm -qa | grep libstdc
+  150  rpm -qa | grep libstdc++-devel
+  151  rpm -qa |GREP MAKE
+  152  rpm -qa |grep make
+  153  cat /etc/sysctl.conf
+  154  vim  /etc/sysctl.conf
+  155  vim  /etc/security/limits.conf
+
+
+
+
+
+groupadd dba
+groupadd oinstall
+
+
+useradd -g dba oracle
+useradd nobody ; echo nobody | passwd --stdin nobody
+
+chown oracle:oinstall /u01
+
+groupadd -g 501 oinstall
+groupadd -g 502 dba
+useradd -g  dba oracle
+
+If already created , then check from cat /etc/group
+OR
+usermod -G dba oracle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

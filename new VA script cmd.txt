@@ -1,0 +1,21 @@
+cd /tmp/new_va/
+
+for i in `ll | awk -F' ' '{print$9}'` ; do rpm -Uvh $i --nodeps; done
+
+
+
+ cd /tmp/sa/
+ll
+ sh sethostname.txt
+ rm -rf sethostname.txt
+
+chmod 777 opsware-agent-60.0.56685.0-linux-6SERVER-X86_64
+./opsware-agent-60.0.56685.0-linux-6SERVER-X86_64 -s --opsw_gw_addr_list 10.131.40.141:3001 --force_new_device
+
+
+
+
+amit medekar 
+
+
+BA-10.131.78.61-62-VM

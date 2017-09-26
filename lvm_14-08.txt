@@ -1,0 +1,21 @@
+10.131.30.165
+
+root@123
+
+
+
+
+oratib123
+
+
+
+10.129.49.12
+
+Med.1.123
+
+
+
+/var/opt/opsware/word
+/dev/mapper/vg_01-LogVol05   596G  477G   89G  85% /var/opt/opsware/word
+
+SIDCCENTOSREPO
