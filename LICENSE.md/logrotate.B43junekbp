@@ -1,0 +1,122 @@
+/etc/init.d/syslog-ng stop
+#cd /var/log/syslog-ng/10.67.137.250/
+#gzip messages
+#mv messages.gz /var/log/syslog-ng/10.67.137.250/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.0.205/old/
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.0.205/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.0.205/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.0.180/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.0.180/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.0.180/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.0.182/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.0.182/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.0.182/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.1.36/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.1.36/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.1.36/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.1.36/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.1.36/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.1.36/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.3.1/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.3.1/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.3.1/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.130.0.145/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.130.0.145/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.130.0.145/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.67.137.68/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.67.137.68/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.67.137.68/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.130.0.141/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.130.0.141/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.130.0.141/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.0.120/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.0.120/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.0.120/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.0.250/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.0.250/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.0.250/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.0.111/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.0.111/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.0.111/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.128.0.240/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.128.0.240/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.128.0.240/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.130.0.146/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.130.0.146/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.130.0.146/messages-`date +"%Y%m%d"`.gz
+
+
+cd /var/log/syslog-ng/10.130.0.147/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.130.0.147/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.130.0.147/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.130.0.146/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.130.0.146/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.130.0.146/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.43.254.3/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.43.254.3/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.43.254.3/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.24.14.280/old
+find -mtime +32 -exec rm {} \;
+cd /var/log/syslog-ng/10.24.14.280/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.24.14.280/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.24.14.180/old
+find -mtime +35 -exec rm {} \;
+cd /var/log/syslog-ng/10.24.14.180/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.24.14.180/old/messages-`date +"%Y%m%d"`.gz
+
+/etc/init.d/syslog-ng restart
+

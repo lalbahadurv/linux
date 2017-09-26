@@ -1,0 +1,52 @@
+/etc/init.d/syslog-ng stop
+
+cd /var/log/syslog-ng/10.48.170.11/old/
+find -mtime +15 -exec rm {} \;
+cd /var/log/syslog-ng/10.48.170.11/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.48.170.11/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.48.170.12/old
+find -mtime +15 -exec rm {} \;
+cd /var/log/syslog-ng/10.48.170.12/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.48.170.12/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.48.170.13/old
+find -mtime +15 -exec rm {} \;
+cd /var/log/syslog-ng/10.48.170.13/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.48.170.13/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.48.170.17/old
+find -mtime +15 -exec rm {} \;
+cd /var/log/syslog-ng/10.48.170.17/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.48.170.17/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.48.170.17/old
+find -mtime +15 -exec rm {} \;
+cd /var/log/syslog-ng/10.48.170.17/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.48.170.17/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.48.170.18/old
+find -mtime +15 -exec rm {} \;
+cd /var/log/syslog-ng/10.48.170.18/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.48.170.18/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.48.170.19/old
+find -mtime +15 -exec rm {} \;
+cd /var/log/syslog-ng/10.48.170.19/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.48.170.19/old/messages-`date +"%Y%m%d"`.gz
+
+cd /var/log/syslog-ng/10.48.170.20/old
+find -mtime +15 -exec rm {} \;
+cd /var/log/syslog-ng/10.48.170.20/
+gzip messages
+mv messages.gz /var/log/syslog-ng/10.48.170.20/old/messages-`date +"%Y%m%d"`.gz
+
+/etc/init.d/syslog-ng restart
+
